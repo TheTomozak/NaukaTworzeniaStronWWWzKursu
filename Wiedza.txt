@@ -1,0 +1,40 @@
+https://developer.mozilla.org/pl/
+
+w3.school - omijami szerokim łukiem
+
+<html> - najważniejszy tag w całej strukturze
+<head> - tag od 'myślenia', umieszczamy w nim metadane i skrypty
+<title> - Zmiana tytułu karty 
+<body> - ciało strony, umieszczamy w nim treść, obrazy, formularze itd.
+<div> - dobry przyjaciel, w którym możemy trzymać inne tagi, takie pudełko na inne tagi
+<p> - paragraf, umieszczamy w nim tekst
+<h1 - h6> - nagłówki
+<img> - umieszczamy w nim obrazy
+<a href=""> - umieszczamy  w nim linki  <a href="https://google.pl" target='_blank'>Google</a> - po klinieciu będzie nam za każdym razem otwierało w nowym oknie a kiedy bysmy mieli target='blank' to otorzyło by strone ale póxniej jako że mamy otwartą to ponownie by nowej nie otworzyła tylko do niej przeniosła
+<style> - dla CSS, ale możemy użyć też <link>
+<script> dla JavaScrpit
+<br> - wcięcie/enter
+<hr> - linia która biegnie na całą długość strony internetowej
+<section> - Nagłówek dla sekcji
+<article> - nagłówek dla artykułu
+<aside> - bocza treść np na reklamy lub inne trści 
+
+To możemy mieć tylko raz na stronie:(znaczt da sie mieć wiecej ale tak nie powinno się robić)
+<nav> - znacznik to nawigacji(menu)
+<header> - znacznik od nagłówka
+<main> - znacznik dla głównej treści dla naszej stronie
+<footer> - stopka 
+
+Nagłówek h1 używamy tylko raz, przeglądarka patrzy czy mamy jeden czy wiele h1 jeżeli wiele to np google nie będzie naszej strony wyświtlało jako pierwszej 
+
+Elementy liniowe: - czyli zajmuje tylko tyle ile potrzebuje
+<span></span>
+ 
+Elementy blokowe  - zajumją całą dostępną długość 
+
+Przydatne skróty:
+div>p*3>img - stworzy nam diva w którym będą trzy paragrafy zawierające img 
+lorem - tworzy nam tekst może być lorem3 czyli 3 słowa lub lorem*3 razy trzy teksty
+.# = tworzy dicva z id 
+.trść = tworzy nam się div z klasą 
+p.treśc = tworzy paragraf z klasą itd z innymi literkami
