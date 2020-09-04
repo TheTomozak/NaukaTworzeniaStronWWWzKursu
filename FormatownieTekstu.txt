@@ -1,0 +1,57 @@
+
+del - przekreślony teskt, używamy jeżeli chcemy coś usunąć ale zostawić na stronie
+s - przekreślony teskt, reprezentuje treść nieaktulną
+
+strong - pogróbienie, podwyższenie wartości semantycznej (czyli jak osoba 
+niewidoma będzie kożystała z czytnika to zostanie o tym poinformowa że to jest pogrubione)
+b - pogróbienie
+
+em - pochylenie z wartością semantyczną
+i - pochylenie 
+
+u - podkreślenie linią
+
+mark - podkreślenie jak markerem
+
+sup - wstawianie znaku/liczby w index górny
+sub - wstawianie znaku/liczby w index dolny
+
+&nbsp; - twarda spacja, używamy ją w paragrafie(bo jak w p damy spacje kolejną spacje to będzei ignorowana)
+
+pre - tak jak napisalismy tekst tak go wyświetla czyli jak będzie 10 spacji to je uwzględni 
+
+
+
+
+<body>
+
+    <del>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, ratione!</del>
+    <br>
+    <s>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, debitis.</s>
+    <br>
+    <br>
+    <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, sit.</b>
+    <br>
+    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, facere.</strong>
+    <br>
+    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, necessitatibus?</i>
+    <br>
+    <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, veniam.</em>
+    <br>
+    <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, culpa.</u>
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur <mark>adipisicing</mark>  elit. Architecto, eum!</p>
+    <br><br>
+    <p>2<sup>2</sup> = 4</p>
+    <p>2<sub>x</sub> = 4</p>
+
+    <br><br>
+    <pre>Lorem ipsum dolor sit amet,
+         consectetur adipisicing eli  t. Ve
+         ro, laudantium.</pre>
+
+     <p>Lorem ipsum dolor sit, &nbsp;&nbsp;&nbsp;&nbsp; amet consectetur adipisicing elit. Error facere dicta numquam, in distinctio ullam repellat voluptatum nihil unde blanditiis velit eos vero laudantium eius harum quas minima laborum nesciunt?</p>    
+
+</body>
+

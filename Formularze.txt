@@ -19,8 +19,8 @@ select - wysuwane opcje wyboru
     </select>
 
     <input type="text"> - tworzy okienko na tekst
-    <input type="checbox"> - tworzy kwadraty do zaznaczani i odznaczani
-    <input type="checbox" checked> - tworzy kwadrat juz zaznaczony
+    <input type="checkbox"> - tworzy kwadraty do zaznaczani i odznaczani
+    <input type="checkbox" checked> - tworzy kwadrat juz zaznaczony
     <input type="button" value="Button">  - tworzy przycisk 
     <input type="color"> - tworzy formularz do wybierania kolorów
     <input type="date"> - tworzy formularz do wybierania daty
