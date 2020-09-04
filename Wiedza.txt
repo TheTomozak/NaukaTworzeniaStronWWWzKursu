@@ -31,6 +31,21 @@ Elementy liniowe: - czyli zajmuje tylko tyle ile potrzebuje
 <span></span>
  
 Elementy blokowe  - zajumją całą dostępną długość 
+<p></p>
+
+Metatagi: zawsze umieszczamy w sekcji head (nie zamykamy ich)
+<title></title>
+<meta charset="UTF-8"> - ustawiam nam kodowanie na UTF-8 bez niego nie vbyło by polskich znaków
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> - żeby strona poprwanie wyświetlała się na urządzeniach mobilnych 
+To sie przydaje podczas pozycjonowania strony:
+<meta name="author" content="Tomozak"> - autor
+<meta name="keywords" content="Nauka, html..."> - słowa kluczowe taki tagi
+<meta name="description" content="Nauka html z kursu"> - opis
+
+
+
+
+
 
 Przydatne skróty:
 div>p*3>img - stworzy nam diva w którym będą trzy paragrafy zawierające img 
