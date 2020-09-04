@@ -1,0 +1,21 @@
+ul - lista nieuporządkowana (unorder list)
+ol - lista uporządkowana (order list)
+
+li - elementy które musza się znajodwać w liscie a w niej tekst
+
+Najlapiej typ listy(liczby, literki) zmieniać w stylach css
+np. <style>
+        li{
+            list-style-type: square;
+        }
+    </style>
+
+
+    <ul>
+
+        <li>cos</li>
+        <li>tralal</li>
+       
+    </ul>
+
+
