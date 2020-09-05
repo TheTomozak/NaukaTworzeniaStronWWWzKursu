@@ -12,22 +12,78 @@
 
     <style>
 
-        li{
-            list-style-type: square;
+        table {
+            border-spacing: 0;
+
         }
 
+        table, td{
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 5px 20px;
+
+        }
+        
+
+        thead {
+            background-color: tomato;
+        }
+
+        tbody {
+            color: #000;
+            background-color: white;
+        }
+
+        tfoot {
+            background-color: rgb(171, 207, 221);
+        }
     </style>
 
 </head>
 
 <body>
 
-    <ul>
-        <li>cos</li>
-        <li>tralal</li>
-       
-    </ul>
+    <!-- 
+    table - rodzic
+    th - nagłowek tabeli 
+    tr - table row (rząd w tabeli)
+    td - table data (pojedyńcza komurka w tabeli)
+    tbody - ciało tabeli
+    tfoot - 'stopka' tabeli, zakończenie
+    rowspan="3" -łączy komórki w kolumnie  (czyli w tr)
+    colspan="2" - łączy komórki w  rzędzie (czyli w td)        -->
 
+    <table>
+        <caption>Rachunek</caption>
+        <thead>
+            <tr>
+                <th>Danie</th>
+                <th>Cena</th>
+                <th>Pora serwowania</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kotlet schabowy</td>
+                <td>15zł</td>
+                <td rowspan="2">Po 12</td>
+            </tr>
+            <tr>
+                <td>Cola</td>
+                <td>8zł</td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Razem</td>
+                <td colspan="2">23zł</td>
+            </tr>
+        </tfoot>
+    </table>
 
 </body>
 
