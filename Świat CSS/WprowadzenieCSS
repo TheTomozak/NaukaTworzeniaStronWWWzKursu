@@ -1,0 +1,45 @@
+CSS tworzy/modyfikuje wwygląd strony
+CSS nie jest językiem programowania
+
+CSS dołączamy do head jako <link rel>
+
+Budowa CSS:
+Reguła składa się z:
+*selektora(nazwa tagu HTML/.klasy/#ID)
+*właściwości(np. color, font-size) 
+*wartości (np. yellow, 16px)
+
+Przykład:
+p{
+    color:blue;
+    font-size:30px;
+}
+
+
+{
+KLASE wymyślamy sami(najlepiej po ang)
+Tę samą klasę możemy dodać do kilku tagów HTML
+W CSS odwwołujemy się do klady za pomocą kropki.
+Możemy umieścic klika klas w jedynm elemncie;
+
+np.
+.main{}
+<div class="main info top"></div>
+
+}
+
+
+{
+ID wymyślamy sami (najlepiej po ang),id zostawiamy bardziej dla js
+ID jest unikalne! Tylko jendo na stronę!
+W CSS odwołujmey się do ID za pomocą hasha;
+
+np.
+#main{}
+<div id="main"></div>
+}
+
+
+{
+    "*" uniwersalny selektor CSS
+}
