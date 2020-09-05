@@ -1,0 +1,11 @@
+script - pozwala umieścić JS w kodzie html 
+script src="" - importuje plik js z zewnętrzego pliku
+
+
+<script>
+        alert("elo");
+    </script>
+
+<noscript>
+    <p>Masz wyłączonego JS!</p>
+</noscript>
