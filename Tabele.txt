@@ -38,6 +38,41 @@
         </tfoot>
     </table>
 
+<style>
+
+        table {
+            border-spacing: 0;
+
+        }
+
+        table, td{
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 5px 20px;
+
+        }
+        
+
+        thead {
+            background-color: tomato;
+        }
+
+        tbody {
+            color: #000;
+            background-color: white;
+        }
+
+        tfoot {
+            background-color: rgb(171, 207, 221);
+        }
+    </style>
+
+
+
+=========================================================
 
 
     <table>
