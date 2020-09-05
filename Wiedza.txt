@@ -53,3 +53,4 @@ lorem - tworzy nam tekst może być lorem3 czyli 3 słowa lub lorem*3 razy trzy 
 .# = tworzy dicva z id 
 .trść = tworzy nam się div z klasą 
 p.treśc = tworzy paragraf z klasą itd z innymi literkami
+ul>li*5>{Element $} - stworzy nam listę nieuprządkowana która będzie zawwirtałą Elemnt 1, 2, ...
