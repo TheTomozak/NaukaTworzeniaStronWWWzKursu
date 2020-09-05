@@ -1,0 +1,35 @@
+audio - dodaje audio 
+video - dodaje video 
+iframe - dodaje filmik z youtube
+img - dodaje obrazek bardzo ważne zeby zapisywwać alt
+
+//pixabay - darmowe obrazki
+
+
+TAK ROBIMY:
+    <p>Pobierz najnowszą aktualizacje</p>
+    <p>Pobierz: <a href="">Visual...</a></p>
+ TAK NIE ROBIMY: 
+    <p>Pobierz <a href="">TEN</a> program</p>
+
+
+<style>
+.Image {
+            max-width: 100%;
+            height: auto;
+        }
+</style>
+
+<audio class="InneTagi" controls="controls" src="ŹródłoDoMuzyki"></audio>
+    <video class="InneTagi" controls="controls" src="ŹródłoDoFilmu"></video>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VUh29MfoBRc" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <img class="Image" src="https://cdn.pixabay.com/photo/2020/08/29/08/33/woman-5526487_960_720.jpg"
+        alt="Orazek przedstawia dziewczynę siedzącą na skałach obok wodospadu">
+    <br>
+    <p>Pobierz najnowszą aktualizacje</p>
+    <p>Pobierz: <a href="">Visual...</a></p>
+    <br>
+    <p>Pobierz <a href="">TEN</a> program</p>
