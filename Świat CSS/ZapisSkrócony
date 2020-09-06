@@ -1,0 +1,68 @@
+Najlpeiej użwyać klas 
+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%
+
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+
+jest równoznaczne z:
+ margin: 50px 150px 100px 150px;
+
+ Ponieważ zapisujemy według ruchu wskazówek: top, rigth, bottom, left 
+
+ Kiedy zapiszemy:
+ margin: 50px;
+ to będzie oznaczało
+ margin: 50px, 50px, 50px, 50px;
+ czyli dla każdego po 50px
+
+ Kiedy zapiszemy:
+ margin: 100px 50px;
+ to oznacza
+ margin: 100px 50px 100px 500px
+ czyli góra dół 100px lewo prawo 50px
+
+ Kiedy zapiszemy:
+  margin: 100px 50px 150px ;
+  to oznacz: margin: 100px 50px 150px 50px 
+  czyli góra 100px prawo lewo 50px a doł 150px
+
+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%
+
+zamist pisać:
+
+div{
+    font-size:40px;
+}
+
+p{
+      font-size:40px;
+}
+
+span{
+      font-size:40px;
+}
+
+
+==możemy zapisać 
+
+div, p, span {
+      font-size:40px;
+}
+
+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%
+
+zapis "div p span" nie jest równy "div, p, span":
+
+div, p, span{
+
+}
+    
+!=
+
+div p span{ //dziedziczenie, to zadziałą dla spana który jest w paragrafie a ten paragraf jest w divie
+
+}
+
+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%+%
