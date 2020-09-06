@@ -1,0 +1,18 @@
+warto jak np mamy przyciski i funkcje play pause stop
+
+zamist pisać
+.play
+.pause
+.stop
+
+zapisać :
+.btn-play
+.btn-pause
+.btn-stop
+
+ZNACZNIK !IMPORTANT: przebija wszystkie inne style
+
+czyli jak w pliku css mamy diva kóry ma kolor tła ustawiwny na złoty
+a póxniej w html w <stlye></stlye> diva ustawionego na zielony 
+to kiedy dodamy to pliku css przy właściwosći kolorły tła !important 
+to wtedy naet jeśli póxniej zmieniamy kolot na zielony to nam się nie zmieni  
