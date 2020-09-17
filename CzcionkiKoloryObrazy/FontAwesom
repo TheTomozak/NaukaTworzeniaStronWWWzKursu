@@ -1,0 +1,12 @@
+https://fontawesome.com/
+
+Stąd możemy brać ikony
+
+Żeby użyć ikon musimy dodać script z kit awesome
+<script src="https://kit.fontawesome.com/dd5d8367a7.js" crossorigin="anonymous"></script>
+
+i dzięki temu możemy już ze strony wklejać rzeczy do naszej strony
+
+Ikony są trakowane jako tekst więc wszytkie operacje w css
+wykonujemy tak jak na tekście 
+

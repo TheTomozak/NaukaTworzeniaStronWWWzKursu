@@ -2,15 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
 
 body {
 
     padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 64px;
     height: 100vh;
     color: rgb(255, 255, 255);
     background-color: #2f4353;
@@ -19,29 +19,10 @@ body {
 
 }
 
-ul,
-ol {
-    margin: 50px;
-}
+p {
 
+    font-family: 'Comfortaa', cursive;
+    font-style: italic;
+    font-weight: bold;
 
-.outside{
-        width: 600px;
-        height: 600px;
-        background-color: hotpink;
-}
-
-#inside{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    background-color: rgb(255, 10, 10);
-
-    /* margin-top: 50px;
-    margin-right: 150px;
-    margin-bottom: 100px;
-    margin-left: 150px; */
-
-    margin: 100px 50px 150px ;
-    
 }

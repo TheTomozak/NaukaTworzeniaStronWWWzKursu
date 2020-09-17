@@ -1,0 +1,18 @@
+Wszytsko co piszemy z domysłu jest zapisywane serif
+Serif używa się np do druku książek nie za bardzo do stron
+
+Czcionkę: "sans-serif" - używa sie na urządzeniach elektronicznych 
+
+Czcionka: "monospace" - każdy znak ma taką samą szeroksć
+
+Czcionka: "curisve" - fiuśna czcionka 
+
+
+Taki zapis "font-family: Arial, Helvetica, sans-serif;" oznacza:
+że chcemy czciąnkę arial ale jeżeli nie bęzie na komputerze to chcemy
+Helveticy a jeżeli tego nie będzie to byle jaką bezSzerywofą czcionkę 
+
+używa się do czcionek w css np.:
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
