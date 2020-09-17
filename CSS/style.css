@@ -9,8 +9,8 @@
 body {
 
     padding: 20px;
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-size: 64px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
     height: 100vh;
     color: rgb(255, 255, 255);
     background-color: #2f4353;
@@ -20,9 +20,11 @@ body {
 }
 
 p {
-
-    font-family: 'Comfortaa', cursive;
-    font-style: italic;
-    font-weight: bold;
-
+    /* text-shadow: X Y ROZMYCIE KOLOR; */
+    text-shadow: 10px 5px 10px gold ;
+    color: rgb(92, 79, 8);
+    text-align: left;
+    word-spacing: 10px;
+    line-height: 200px;
+    
 }
