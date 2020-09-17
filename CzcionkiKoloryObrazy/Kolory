@@ -1,0 +1,12 @@
+
+RGB (0-255)
+
+HSL (hue, saturation, lightness)
+
+HEX (#RRGGBB)
+
+HSLA  ]
+        ==> "a" oznacza kanał alfa czyli przezroczystość
+RGBA  ]
+
+rgba(0,0,0,0.5) - kolor czarny przezroczysty na 0.5
