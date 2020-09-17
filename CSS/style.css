@@ -28,3 +28,15 @@ p {
     line-height: 200px;
     
 }
+
+img{
+    display: block;
+    width: 600px;
+    /* height: 600px; */
+    margin: 50px auto;    
+    /* border: 5px solid black; */
+    border-radius: 100px;
+    /* opacity: 0.3; */
+    filter: blur(10px);
+    
+}

@@ -1,0 +1,17 @@
+display - zmiana ułożenia zdjec(domyślnie jest liniowo)
+width: 100%; - szerokosć wzgledem rodzica 
+margin: 50px auto; - góra dół 50px a lewo prawo auto 
+border: 5px solid black; - ramka
+border-radius: 50%; - używany do nadawania obramowaniom zaokrąglonych rogów.
+opacity: 0.3; - przezroczystość 
+ filter: blur(10px); - blurowanie zdięcia np, troche eksperymentalana opcja 
+
+
+Zrobienie zdjęcia okrągłego (tak jak profilowe np):
+to ustwiamy szerokosć i wysokosć na tyle samo (kwadrat)
+i  border-radius: 50%; 
+
+
+
+
+
