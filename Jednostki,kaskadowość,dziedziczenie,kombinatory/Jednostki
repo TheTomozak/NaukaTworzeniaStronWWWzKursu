@@ -1,0 +1,15 @@
+Najczęściej używane jednostki to:
+px, %, vh, vw, rem, em
+
+%% Procenty odnoszą się do rodzica, oraz same się dostosowują do ekranu
+
+vh, vw - odnoszą się do okna przeglądarki view height, view width
+50vw jest to 50procent szerokości okna przeglądraki 
+
+rem - jest to odwoałenie się do głównej miary czyli
+jeżeli w html{ mamy font-size: 10px}
+to później np. w paragrawif p{robimy font-size:3rem}
+to oznacza że nasza czcionka ma 30px 
+
+em - reprezentuje jednostę rodzica (tak jak rem html'a)
+ 

@@ -1,0 +1,10 @@
+Czytamy wszytsko od góry do dołu
+
+Jak sie powinno wstwawiać w <html><head>  *  </head></html>:
+[źródło zewnętrznr] -> [nasz CSS z pliku] -> [<style>] -> [styl liniowy]
+
+Waga ważności:
+1. Styl liniowy
+2. ID
+3. Klasa
+4. Tag HTML
