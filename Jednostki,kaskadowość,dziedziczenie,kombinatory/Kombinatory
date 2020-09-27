@@ -1,0 +1,9 @@
+KOMBINATORY
+
+
+">" - odwołanie do bezpośrednich dzieci
+
+"+" - odwołanie do pierwszego BEZPOŚREDNIEGO brata
+
+"~" - każdy brat, bez znaczenia, czy coś jest między nimi 
+

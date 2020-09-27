@@ -1,0 +1,20 @@
+rodzic - dziecko:
+
+<div>
+    <p></p>
+</div>
+
+
+rodzeństwo:
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+css:
+
+div p{ paragraf który jest w divie
+    ...
+}

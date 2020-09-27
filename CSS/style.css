@@ -1,40 +1,32 @@
 * {
     box-sizing: border-box;
-    /* margin: 0;
-    padding: 0; */
+    margin: 10px;
+    padding: 0;
 
 }
+
 
 body{
-    padding: 20px;
     font-size: 32px;
-    font-family: 'Comfortaa', cursive;
-    background-color: #333;
-    color: white;
 }
 
 
-i{
-    font-size: 64px;
+/* odwołujemy się do bezpośredniegodziecka (paragarfu) */
+div > p{    
+    color: rebeccapurple;
+}
+
+/* odowałanie do wszytkich braci diva którzy są paragrafami */
+div ~ p {   
+    color: pink;
+}
+
+/* odwoałanie do pierszego bezpośredniego brata diva ktroy jest listą nieuporzątkowaną */
+div + ul {
+color: red;
+}
+
+ul{
     padding: 10px;
-}
-
-img{
-    display: block;
-    width: 350px;
-    margin: auto;
-}
-
-p{
-    color: lime;
-    font-weight: bold;
-}
-span{
-    opacity: 80%;
-    background-color: black;
-}
-
-li{
-    magrin: 10px;
-    display: flexbox;
+    margin: 15px;
 }
