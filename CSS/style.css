@@ -24,3 +24,13 @@ div {
     border: 10px solid black;
     margin: 20px;
 }
+
+.square{
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    width:200px;
+    height: 200px;
+    background-color: royalblue;
+    overflow: hidden;
+}

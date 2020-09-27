@@ -1,0 +1,11 @@
+Jeżeli jeakiś tekst/obiekt jest poza naszymi wymiarami możemy go uciąć żeby był nie widoczny:
+overflow: hidden;
+
+.square{
+    width:200px;
+    height: 200px;
+    background-color: royalblue;
+    overflow: hidden;
+}
+
+można też ustwaić suwak = overflow: auto;
