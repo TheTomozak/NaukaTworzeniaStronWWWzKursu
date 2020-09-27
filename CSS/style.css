@@ -11,22 +11,19 @@ body{
 }
 
 
-/* odwołujemy się do bezpośredniegodziecka (paragarfu) */
-div > p{    
-    color: rebeccapurple;
+div p {
+    color: red;
 }
 
-/* odowałanie do wszytkich braci diva którzy są paragrafami */
-div ~ p {   
-    color: pink;
+.child > p {
+    font-weight: bold;
+    text-decoration: line-through;
 }
 
-/* odwoałanie do pierszego bezpośredniego brata diva ktroy jest listą nieuporzątkowaną */
-div + ul {
-color: red;
+#test ~ div {
+    background-color: blue;
 }
 
-ul{
-    padding: 10px;
-    margin: 15px;
+main + p {
+    text-transform: uppercase;
 }
