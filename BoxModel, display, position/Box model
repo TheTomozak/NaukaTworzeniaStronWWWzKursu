@@ -1,0 +1,16 @@
+Model pudełkowy dzieli się na:
+box-model i box-sizing
+
+model składa się z 4 elementów:
+content, padding, border, margin
+
+
+Domyslnie każdy element ma:
+box-sizing: content-box;
+
+
+kiedy mamy ustawiony box-sizing: border-box; 
+to wtesy mamy kontorlę jak treści wyglądają na naszej stronie
+
+Margines od boków się sumuje 
+Margines od góry dołu nie sumuję się, brana jest większa wartość z margin
