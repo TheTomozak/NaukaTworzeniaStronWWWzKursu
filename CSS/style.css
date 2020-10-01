@@ -13,44 +13,10 @@ body {
 
 }
 
-.test{
-    padding: 10px 20px ;
+span{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
     background-color: tomato;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color .3s, box-shadow 0.3s;
-    /* Wskazujemy jakie elementy mają byc animowane i na jaki czas */
-    /*  Poźniej uzupełniamy elementy*/
-    /* 1s to jest czsa od 0 do 100% i póxniej od 100% do 0  */
-
-
 }
-
-.test:hover{
-background-color: royalblue;
-box-shadow:3px 3px 4px salmon;
-}
-
-.divTest{
-    padding: ;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    background-color: rgb(219, 57, 57);
-    transition: background-color 1s, width 1s;
-}
-
-
-.divTest:hover{
-    background-color: tomato;
-    width: 600px;
-}
-
-.ukryty{
-    display: none;
-}
-span:hover + .ukryty{
-    display: block;
-
-}
+/* zachowuję sie jak liniowy ale ma właściwośći blokowego */

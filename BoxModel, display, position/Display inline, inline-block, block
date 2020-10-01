@@ -1,0 +1,17 @@
+ELEMENTY BLOKOWE:
+div
+p
+h1-h6
+
+ELEMENTY LINIOWE:
+span
+a
+
+WYJATKOWY ELEMENT LINIOWY
+img(ponieważ zachowuje się jak liniowy ale ma właściwości blokowoego)
+
+możemy mieć mieszane:
+
+display: inline-block; - połączenie elementów liniowych z blokowym 
+elementy zachowują się jak liniowe(mogą być układane obok siebie)
+natomiast przejmują właściwości po elenetach blokowych (możemy pracować na ich wielkośći)
