@@ -1,33 +1,26 @@
-* {
 
-    box-sizing: border-box;
+span:hocer + div{ - najedź na elemnt i zrób coś z innym elementem
+    ...
 }
 
-
-body {
-    font-size: 26px;
-    background-color: #333;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-
-
-}
 
 .test{
     padding: 10px 20px ;
     background-color: tomato;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; - zmieniamy kursor na rączke po najechaniu
+
     transition: background-color .3s, box-shadow 0.3s;
     /* Wskazujemy jakie elementy mają byc animowane i na jaki czas */
     /*  Poźniej uzupełniamy elementy*/
     /* 1s to jest czsa od 0 do 100% i póxniej od 100% do 0  */
 
-
 }
 
-.test:hover{
+
+
+.test:hover{ - akcja po najechaniu
 background-color: royalblue;
 box-shadow:3px 3px 4px salmon;
 }
