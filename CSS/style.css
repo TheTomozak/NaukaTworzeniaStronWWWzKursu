@@ -14,14 +14,26 @@ body {
 }
 
 
-div{
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    background-color: royalblue;
-    border-radius: 50%;
-    /* border: 10px solid  white; */
-    border-top: 10px solid white;
-    border-top-left-radius: 20px;
-
+a{
+    color: pink;
+    text-decoration: none;
 }
+
+a:hover{
+    color: red;
+}
+/* a:link{
+    color: rgb(213, 247, 20);
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: royalblue;
+}
+
+a:active{
+    color: lime;
+} */
