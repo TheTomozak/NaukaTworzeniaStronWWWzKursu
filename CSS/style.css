@@ -1,36 +1,27 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
 body {
     font-size: 26px;
+    background-color: #333;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
-div {
+
+div{
     width: 300px;
     height: 300px;
-}
-
-.content {
-
-    background-color: tomato;
-    box-sizing: content-box;
-    padding: 20px;
-    border: 10px solid black;
-    margin: 20px;
-}
-
-.border {
-    background-color: lime;
-    box-sizing: border-box;
-    padding: 20px;
-    border: 10px solid black;
-    margin: 20px;
-}
-
-.square{
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 20px;
-    width:200px;
-    height: 200px;
+    margin: 0 auto;
     background-color: royalblue;
-    overflow: hidden;
+    border-radius: 50%;
+    /* border: 10px solid  white; */
+    border-top: 10px solid white;
+    border-top-left-radius: 20px;
+
 }

@@ -1,0 +1,13 @@
+BORDER
+https://developer.mozilla.org/pl/docs/Web/CSS/border
+
+border-radious:50%; tworzy nam się koło (wtedy kiedy w==h)
+border-top-left-radius: 20px;
+mozemy też zrobić radious dla oddzielnych krawędzi
+
+border: 10px solid white;
+border: [border-width || border-style || border-color | inherit] ;
+
+border-top:...
+border-right:...
+możemy z każdej strony dać inną ramkę
