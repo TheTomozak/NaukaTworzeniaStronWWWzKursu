@@ -1,7 +1,7 @@
 * {
 
     box-sizing: border-box;
-    margin: 0;
+    margin: 50px;
     padding: 0;
 }
 
@@ -16,9 +16,20 @@ body {
 }
 
 
-.pasekGorny{
-    width: 100%;
+div{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.blue{
+    background-color: royalblue;
+}
+
+.gold{
+    width: 100px;
     height: 100px;
-    background-color: tomato;
-    position: fixed;
+    background-color: gold;
+    position: sticky;
+    top: 0px;
 }

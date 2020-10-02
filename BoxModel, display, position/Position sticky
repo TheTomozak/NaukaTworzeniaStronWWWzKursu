@@ -1,0 +1,12 @@
+Position sticky - taka ulepszona wersja fixed
+
+Position sticky - działa na rodzicu,
+przykleja element do swojego rodzica i w zależoności gdzie go
+podamy(left, top...) tam sie przyklei 
+
+.pasekGorny{
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+    position: fixed;
+}
