@@ -10,13 +10,32 @@ body {
     color: white;
     font-family: 'Poppins', sans-serif;
 
+}
+
+
+div{
+    margin: 0 auto;
+    height: 200px;
+    width: 600px;
+    border: 3px solid black;
 
 }
 
-span{
-    display: inline-block;
-    width: 200px;
-    height: 50px;
+.red{
     background-color: tomato;
 }
-/* zachowuję sie jak liniowy ale ma właściwośći blokowego */
+
+.blue{
+    position: relative;
+    background-color: royalblue;
+    margin: 5px auto;
+    top: 50px;
+    left: 15px;
+}
+
+.green{
+    position: relative;
+    background-color: yellowgreen;
+    z-index: 10;;
+}
+

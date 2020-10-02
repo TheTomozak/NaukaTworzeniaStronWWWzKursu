@@ -1,0 +1,19 @@
+Każdy element ma position: static;
+
+z-index - ustawianie czy obiekt ma być pod innym obiektem 
+element któy ma większy z-index jest na "górze"
+
+Przy position relative, uwstamy sobie o ile przesuwwamy element 
+ale względem jego ORYGINALNEJ POZYCJI
+
+Możemy przemieszczać obiekt na:
+left
+rigth
+bottom
+top
+
+i to oznacza że np.
+left: 5px - przesuwany od lewej krawędzi o 5px 
+top: 100px - przesuwamy od górnej krawędzi w dół o 100px
+
+
