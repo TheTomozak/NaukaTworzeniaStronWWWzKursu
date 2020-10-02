@@ -1,0 +1,39 @@
+Position relative zmienia postać wizualną czyli jak przesuwamy jeden
+obiekt pomiędzy innymi to pozostałe zostają na swoich miejscach 
+Position relative przesuwa obiekt, ale względem swojej 
+oryginalnej pozycji.
+
+Position absolute zmienia pozycję czyli jak przesuwamy jeden
+obiekt pomiędzy innymi to pozostałe zajmują miesce tego przesuniętego
+Position absolute - zmienia położenie względem swojego rodzica(jeżeli
+rodzic ma position: relative)
+
+każda klasa to div
+.red {
+    background-color: tomato;
+}
+
+.blue {
+
+    background-color: royalblue;
+    margin: 5px auto;
+    position: absolute;
+
+}
+
+.green {
+    background-color: yellowgreen;
+
+}
+
+.gold {
+    margin: 0;
+    width: 120px;
+    height: 120px;
+    background-color: gold;
+}
+
+zielony wszedł na miejsce niebieskiego kiedy użyliśmy 
+position: absolute; 
+
+---------------------------------------------------------
