@@ -1,0 +1,5 @@
+Position: fixed; - przykleja nas obiekt do jednej pozycji 
+przydatne do robienia menu na górze wtedy ten pasek poruszą się z 
+całą stroną 
+
+Position: fixed; psuje "filter", "transform" ... 
