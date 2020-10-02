@@ -14,60 +14,103 @@ body {
 
 }
 
-.bg{
-    width: 100vw;
-    height: 100vh;
-    background-color: #ddd;
-    transition:background-color 0.5s;
+
+button {
+    position: absolute;
+    /* transform: translateX(-50%); */
+    top: 30px;
+    width: 120px;
+    background: none;
+    padding: 10px 30px;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+
+    transition: background-color .3s, color .3s;
+
 }
 
-.square{
-    transform: translateX(-50%);
-    width: 60px;
-    height: 60px;
-    border: 2px solid black;
+button:hover {
+    background-color: white;
+    color: black;
+}
 
+/* ustawianie przyciku idelanie na środku */
+.btn-zoom {
+    /* left: 30%; */
+    /* tak można, ale też można tak */
+    /* czyli 30% procen od lewej odjąć połowę szerkości kwadratu */
+    left: calc(30% - 60px);
+}
+
+.btn-move {
+    left: calc(50% - 60px);
+    
+}
+
+.btn-color {
+    left: calc(70% - 60px);;
+}
+
+
+.square {
     position: absolute;
-    top: 30px;
+    transform: translateX(-50%);
+    top: 120px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
     cursor: pointer;
 
-}
 
-.blue{
-    background-color: royalblue;
-    left: 20%;
-}
-
-.green{
-    background-color: greenyellow;
-    left: 40%;
-}
-
-.red{
-    background-color: tomato;
-    left: 60%;
+    transition:top .4s, width 0.3s, height .3s, box-shadow 0.3s, border .3s,background-color .3s  ;
 
 }
 
-.gold{
-    background-color: gold;
-    left: 80%;
+.red {
+    left: 30%;
+    background-color: red;
+    box-shadow: 5px 5px 15px red;
+    border: 1px solid rgb(168, 0, 0);
+}
+
+.blue {
+    left: 50%;
+    background-color: rgb(18, 113, 238);
+    box-shadow: 5px 5px 15px  rgb(18, 113, 238);
+    border: 1px solid rgb(1, 1, 167);
+
 
 }
 
-.blue:hover ~ .bg{
-    background-color: royalblue;
+
+.green {
+    left: 70%;
+    background-color: rgb(11, 226, 11);
+    box-shadow: 5px 5px 15px  rgb(11, 226, 11);
+    border: 1px solid rgb(1, 65, 1);
+
 }
 
-.green:hover ~ .bg{
-    background-color: greenyellow;
+
+.btn-zoom:hover ~ .square{
+    width: 150px;
+    height: 150px;
 }
 
-.red:hover ~ .bg{
-    background-color: tomato;
+.btn-move:hover ~ .square{
+    top: 300px;
 }
 
-.gold:hover ~ .bg{
-    background-color: gold;
-}
+.btn-color:hover ~ .square{
+    background-color: black;
+    box-shadow: 5px 5px 15px  black;
+    border: 1px solid white;
+   
 
+}
